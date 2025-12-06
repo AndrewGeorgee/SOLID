@@ -171,10 +171,37 @@ All code examples are located in the `lib/principles/` directory. Each principle
 
 ## 🧪 Testing
 
-To run tests:
+This project includes comprehensive unit tests, integration tests, and TDD examples.
+
+### Run All Tests
 ```bash
 flutter test
 ```
+
+### Run Specific Test Suites
+```bash
+# Unit tests only
+flutter test test/unit/
+
+# Integration tests only
+flutter test test/integration/
+
+# TDD examples
+flutter test test/tdd/
+```
+
+### Test Coverage
+- ✅ 66+ unit tests covering all SOLID principles
+- ✅ Integration tests for complex workflows
+- ✅ TDD examples demonstrating test-first development
+- ✅ All tests passing
+
+### Test Structure
+- `test/unit/` - Unit tests for individual components
+- `test/integration/` - Integration tests for workflows
+- `test/tdd/` - Test-Driven Development examples
+
+See [test/README.md](test/README.md) for detailed testing documentation.
 
 ## 📝 Notes
 
