@@ -188,3 +188,4 @@ class Discount {
 /// 2. Use strategy pattern for discounts (OCP)
 /// 3. Add proper error handling
 /// 4. Add validation
+
