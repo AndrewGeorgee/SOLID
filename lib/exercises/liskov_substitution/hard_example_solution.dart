@@ -272,3 +272,5 @@ void main() {
   print('✅ ISP: Interfaces are segregated by capability');
   print('✅ Functions accept interfaces, ensuring substitutability');
 }
+
+
